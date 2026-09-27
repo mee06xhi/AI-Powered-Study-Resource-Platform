@@ -1,0 +1,7 @@
+ddgs
+fastapi
+uvicorn
+scikit-learn
+pypdf
+google-genai
+python-dotenv

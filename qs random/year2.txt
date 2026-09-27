@@ -1,0 +1,120 @@
+USN 
+Fourth Semester B.E./B.Tech. Degree Exam/in;«l,tion, 
+Time: 3 hrs. 
+Database Managemen‘t‘,"System 
+2. M : Marks , L: Bloom’s level , C: Course outcomes. 
+S Max. Marks: 
+Note: 1. Answer any FIVE full questions, leoung ONE full question from'e eacll module. 
+100 
+Modulé - 1 M| L| C 
+Q.1 | a. | Define the following terms: TS &L, 05| L1 | CO1 
+(i) Database (ii) Schema (iii) Entity 
+(iv) DDL (V) Degree of a relationship 
+b. | Briefly explain characteristics0f database approach. - 05| L2 | CO1 
+c. | List and explain advantages of using DBMS approach. ¥ 10 | L2 | CO1 
+2 OR 
+Q.2 | a. | Define the following terms: 05| L1 | CO1 
+(i) Cardinality , /(i) Weak entity  (iii) rogram data independence 
+(v)DML £,  (v) Value sets 
+b. | Describe three-schema archltectule Why do we need mappmgs between | 05 | L2 | CO1 
+schema leyels? 
+c. | Explain different types of attnbu{es in ER model w1th sultable example for |10 | L2 | CO1 
+each. ‘ 
+Module —2 o 
+Q.3 [ a. | With suitable example, explain the entity integrity and referennal integrity | 05 | L2 | CO2 
+constraints. Why each is considered important? 
+b. | Discuss equijoin, and natural join wnh _sujtable example ,usmg relatlonal 05| L2 | CO2 
+algebra notation 2 i 
+c. | Given the relational tables: R 10 | L3 | CO2 
+Employee: 
+EID |Name | DepID | Salaty, |. DeptName 
+Alice 10| 5000, ' HR 
+‘| Bob 20 6990 IT 
+Eve 20 |,6500 Sales 
+‘| Project QY 
+PID | Project Name ~ | DeptID 
+101 | Project‘Alpha 10 | 
+102 | Project Beta 20 v 
+103 | Project Gamma 30 ¢ 
+Write relational algebra expression for the following: 
+(i) Find the names and‘salaries of all employees in the ‘IT” department. 
+(ii) Find the ID’s and names of employees who are in the ‘IT” department 
+and have a salary greater than 6000. 
+(iii) Find the ID"s and names of employees who are either in the ‘HR’ 
+department or have a salary greater than 6000. 
+(iv) Find the names of employees who are not in the ‘IT* department 
+(v) Findthe names of employees along with their department names. 
+10of3 
+BCS403 
+OR s 
+Q.4 | a. | Explain any two operations that change the state ofrelanon in a database. | 05 | L2 | CO2 
+Provide suitable examples. .\ 
+b. | Discuss the aggregation functions and grouping m rp]a;lona] algebra with | 05 | L2 | CO2 
+suitable examples. L 
+c. | Given the relational tables: 10| L3 | CO2 
+Student: Project: 
+SID | Name PID | Project Name | 
+a | Alice p Alpha AN 
+b | Bob q Beta 
+¢ | Carol T Gamma( 
+Language: Enrollment: ? 
+LID | Language Name | | SID”| PID 
+X Python a p 
+y Java a q 
+z C+t+ b q 
+C .4 
+Write relational a]gehra expression for the foﬂowmg 
+(i) Rename, the Student table to Learner and dlSp'ay it. 
+(i) Find the students (learners) who are riot enrolled in any project. 
+(iii) Fmd}he students who are enrolled in all projects. 
+(iv) Findthe students who are not enro]led in any project:. 
+(v) Find the students who are enrolled in both the ‘Alpha and ‘Beta’ 
+projects. N » 
+‘ * Module — 3 < 
+Q.5 | a. | Explain Armstrong inference rules. ‘ 05| L2 | CO4 
+b. | What is the need Aor normalization? Explaln INF, 2NF and 3NF with | 05 | L2 | CO4 
+examples. g 
+c. | What is ﬁlncuo\ 10 | L3 | CO4 
+for set of functional dependanmes 
+functional’ dependellcles which are\ E={B—>A,D- A,’ AB - D) 
+Q.6 | a. | Explain the types of update, a|1oma11es in SQL wnh an example. 05| L2 | CO4 
+b. | Explain types of JBBC drivers. 05| 12 | CO5 
+c.’| Consider the schema R = ABCD, sub_]ected to FDs F={A->B,B —>C) 10 | L3 | CO4 
+and the non-| bmary partition D1 = {ACD AB, BC}. State whether D1 is a 
+lossless decomposition? [give all st s in detail]. 
+: Module 4 
+Q.7 | a. | Define uansactlon Discuss/ACID properties. 05| L2 | CO5 
+b. | With a neat diagram, explain transition diagram of a transaction. 05| L2 | CO5 
+c. | Demonstrate working of assertion and triggers in SQL with example. 10| L3 | CO5 
+S, OR 
+Q.8 [ a. | Explain cursor and.its properties in embedded SQL with suitable example. | 05| L2 | CO5 
+b. | Determine if the: following schedule is serializable and explain your | 05 | L2 | CO5 
+reasoning: 
+i) THREWX) T2:RX)W(X) T1: COMMIT T2 : COMMIT 
+i) T1 WOR(Y) T2 : RX)W(Y) TI: COMMIT T2 : COMMIT 
+20f3 
+BCS403 
+Consider the tables below: A 
+Sailors (sid : integer, sname : string, rating : integer, age 1eal) 
+Boats (bid : integer, bname : string, color : string); 
+Reserves (sid : integer, bid : integer, day : date) 
+Write SQL queries for the following: 
+(i) Write create table statement for reserves. 
+(ii) Find all information of sailors who have reserved boat number 101., 
+(iii) Find the names of sailors who have reséryed at least one boat. 
+(iv) Find the names of sailors who have reserved a red boat. 
+(v) Find the average age of sailors f01 each rating level. 
+10 L3 CO0s 
+Module 5 
+Q9 Explain the CAP theorem. -« 05 L2 CO6 
+F What is NOSQL graph database? Explain Neo4j. 05 L2 Co6 
+Why concurrency control and recovery are needed inDBMS? Demonstrate 
+with suitable examples types of problems that may'oceur when two simple 
+transactions run concurrently. 5 
+10 L3 COs 
+OR 
+Q.10 Explain basic operauons CRUD in Mongo| 05 L2 Co6 
+12 Explain deadlock prevention protocols. 05 L2 COs 
+Briefly discuss the two-phase Iooki/ué techniques fy concurrency control. 10 L3 CO5 
+ok 
+30f3 

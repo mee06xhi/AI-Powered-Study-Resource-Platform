@@ -1,0 +1,121 @@
+USN 
+Fourth Semester B.E./B gclfx 
+GBESISCHENE: BCS403 
+ree Exammatmn, June/July 2025 
+Database /M;anaégment Systems 
+Time: 3 hrs. \O\ “) , p Max. Marks: 100 
+Note: 1. Answer any FIVE full rwln‘ ing ONE full question from ench module. 
+2. M : Marks , L: Bloom’s level%urse outcomes. A 
+Mod\lle -1 L C 
+Q.1 | a. | Explain the types of attributes w12.h example L2 | CO1 
+b. | Define database. Explain the ain charactenstlcs of the database approach. L2 | co1 
+[¢ 3 ¥ 
+c. | Show the ER diagram foran EMPLOYEE database by assuming your own L3 | CO2 
+entities (minimum 4)- a:trlbules and relationships, n cardinality ratios 
+wherever appropriate;t. ) 
+s 
+QY OR 
+Q.2 |a. | Describe the three schema architecture. L2 | CO1 
+b. L2 | co1 
+[-3 Deslgn ER diagram for a umverslify dalabase by assummg ‘your own entities L3 | COo2 
+(4). Mention primary key/, coristraints and re]atlonshlps 
+A4 N 
+3 ;/ Module — 2, Dhad 
+Q.3 | a. | Explain relational model‘constramts L2 | Co1 
+b. | Explain the characterlsncs of relations; wnh sunable examp]e J L2 | Co1 
+~Y 
+c. Consndenng lhe following schema“ V) L3 | CO1 
+Sailors(sid , sname , rating , age) 
+, bname , color) /< 
+51d bid, day)( 
+Write a relauonal algebra queries for the fo]lowmg 
+“}i) Find the names of salli)rs who have reserved red and a green boat. 
+) Find the names of sailors who have resgrved ared boat. 
+27| iii) Find the names of sailors who have, seserved a red or green boat. 
+iv) Find the na&nes of sailors who Have reserved all boats. 
+~OR 
+Q.4 | a. | Explain the steps to convert.the basic ER model to relational Database L2 | Cco1 
+schema. 
+b. | Explain Unary re]atioﬁél,operations with example. L2 | Co1 
+1of3 
+BCs403 
+Consider the relation schema Employee database. 
+EMPLOYEE (Fname ,Minit , Lname , SSn, Bdates , Address ‘Sex , Salary 
+Super_SSn, Dno) 
+DEPARTMENT (Dname Dnumber , Mgr_SSn, Mgr start _date) 
+PROJECT (Pname , PNumber , Plocation , Dnum) 
+‘WORKS_ON (Essn, Pno , Hours) 
+DEPENDENT (Essn, Dependent name, sex, Bdate Relationship) 
+‘Write relational algebra queries for the follc\\(mg 
+i) Retrieve the name and address of all employees who work for the 
+‘Research’ department. P 
+i) List the names of all emp]oyees wnh 2 or more dependents: 
+iii) Find the names of employees who work on all the pleeCf contro]led 
+by department number 5. \ R/ 
+iv) List the names of empléyqes who have no dependents.» 
+L3 Cco3 
+Q5 What is the need for' 
+with examples. N 
+L2 Co4 
+L2 co1 
+Identify the given Relation R(ABCDE) and its instance, check whether 
+FDS/glven hold or not. Give reas ns\ 
+iy“A=>B i) B—C 
+L3 Co4 
+Q.6 What is Muluvalued deperu:len(:y‘7 Explam 4NF and SNF wnh suitable 
+exﬂmple & y 
+L AR 
+L2 Co4 
+Oqt L2 Co4 
+.| EMPPROJ (88n Pnumber Hours , Ena 
+o SSN Pnumber—> Hours, Y 
+SSN N Ename & 
+l’numbel — Pname, Plocanon 
+Is it 2NF? Venfy" Ifno give reason ? 
+20f3 
+L3 Cco4 
+BCS403 
+Module — 4 
+Q.7 Consider the following schema for a company database : 10 | L3 | CO3 
+Employee (FName , LName , SSn , Adderss , Sex Salary Dno , 
+Super_SSn) 
+Department (Dname , Dnumber , mgr_SSn, mgr_st date) 
+Project (Pname , Pnumber , Plocauon Dnum) 
+WORKS_on (Essn, Pno , Hours) 
+DEPENDENT (Essn , Dependent name , Sex ; Bdate, relationship). 
+‘Write the SQL queries for the following 
+i) List the names of managers who have atleast one dependent (use 
+correlated nested). 
+ii) Retrieve the name of each emp]oyee who has a dependent with the 
+same first name and is the same-sex as the employee. /" 
+jii) For each project retrieve the project number , project name ‘and the 
+number of employees Who'work on that project. 
+iv) Retrieve the SSN of all'employees who work on. mject number 1, 2 
+or 3. (Use IN). , \ 
+v) Find the sum of Ehe salaries of all employees of the ‘Research’ 
+department as‘well as maximum salary , minimum salary , average 
+salary in thls depa.nment 
+Why conet 10 | L2 | CO5 
+Q.8 Consider the following schedulé, The actions are listed in the order they are | 10 | L3 | CO5 
+scheduled and prefixed with the transaction name. .« 
+S1:T1:R(X), T2: RX).T1¢W(Y), T2: W(Y) | TL;R(Y), T2 R( ) 
+S2:T3: W(X), T1: REX), T1: W(Y), T2: R@)3 T2 : W(Z) , T3 #R( 
+For each schedule answer the following : .« : 
+i)  What is the pr ecedence graph for the schedule" 4 
+ii) Isthe sched}xle cénﬂlct serializable?" If 50 what are all the conﬂlcts 
+equwa]egt al schedules? 
+iii)) Is the schedule view senahzab)er7 1f50 what are all the view equivalent 
+serial schedules’7 WY 
+Explam triggers with example | write a trigger in SQL to call a procedure | 10 | L3 | CO5 
+“Inform Supervisor whenever an employees salary is greater than the 
+salary of his or her direct superv:sor in the COMPANY database. 
+Q y Module= 5 
+Descrlhe the two— phase locking protocol for concurrency control provide | 10 | L2 | CO5 
+example to 1]lu5tra1e how it ensures senallzablllty in transaction schedule. 
+Explain the, chal acteristics of NOSQL system. 10 | L2 | CO6 
+A3 OR 
+Q.10 Explain binary locks and shared lock with algorithm. 10 | L2 | CO5 
+Explain MongoDB data model, CRUD operations and distributed system | 10 | L2 | CO6 
+characteristics.. 
+xR R 
+30f3 

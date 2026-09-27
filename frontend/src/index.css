@@ -1,0 +1,58 @@
+@import "tailwindcss";
+
+@theme {
+  /* Obsidian dark palette */
+  --color-surface: #101415;
+  --color-surface-dim: #0b0f10;
+  --color-surface-container-lowest: #0b0f10;
+  --color-surface-container-low: #191c1e;
+  --color-surface-container: #1d2022;
+  --color-surface-container-high: #272a2c;
+  --color-surface-container-highest: #323537;
+
+  --color-on-surface: #e0e3e5;
+  --color-on-surface-variant: #c6c6cd;
+  --color-outline: #909097;
+  --color-outline-variant: #45464d;
+
+  --color-primary: #bec6e0;
+  --color-on-primary: #283044;
+  --color-primary-container: #0f172a;
+
+  /* Academic Violet — AI / primary actions */
+  --color-accent: #7c3aed;
+  --color-accent-hover: #6d28d9;
+
+  /* Intelligence Teal — data, citations, focus states */
+  --color-info: #0ea5e9;
+
+  --color-background: #101415;
+  --color-on-background: #e0e3e5;
+
+  --font-display: "Playfair Display", serif;
+  --font-body: "Inter", sans-serif;
+}
+
+@layer base {
+  body {
+    @apply bg-background text-on-background font-body antialiased min-h-screen;
+  }
+}
+
+/* Subtle dot-grid backdrop, evokes drafting paper */
+.grid-texture {
+  background-image: radial-gradient(rgba(255, 255, 255, 0.03) 1px, transparent 1px);
+  background-size: 32px 32px;
+}
+
+/* Frosted glass panels (nav, search card, resource cards) */
+.glass-panel {
+  background: rgba(15, 23, 42, 0.6);
+  backdrop-filter: blur(20px);
+  -webkit-backdrop-filter: blur(20px);
+}
+
+/* Soft violet glow for "AI-powered" / primary CTA elements */
+.ai-glow {
+  box-shadow: 0 0 15px rgba(124, 58, 237, 0.3);
+}

@@ -1,0 +1,95 @@
+VTU DBMS - 2021
+
+Module 1
+1 a. Explain the concept of normalization with a suitable example. (10 Marks)
+  b. What is a transaction? Explain the ACID properties. (10 Marks)
+OR
+2 a. Explain functional dependency and its types with examples. (10 Marks)
+  b. Draw an ER diagram for a college management system. (10 Marks)
+
+Module 2
+3 a. What is deadlock? Explain deadlock detection and recovery techniques. (10 Marks)
+  b. Explain the different types of joins in SQL with examples. (10 Marks)
+OR
+4 a. Explain concurrency control techniques in DBMS. (10 Marks)
+  b. What is indexing? Explain B-tree indexing with a diagram. (10 Marks)
+
+VTU DBMS - 2022
+
+Module 1
+1 a. Discuss normalization and explain 1NF, 2NF, 3NF with examples. (10 Marks)
+  b. Explain the ACID properties of a transaction with an example. (10 Marks)
+OR
+2 a. What is a functional dependency? Explain with an example. (10 Marks)
+  b. Draw and explain an ER diagram for a hospital management system. (10 Marks)
+
+Module 2
+3 a. Explain deadlock avoidance and prevention techniques. (10 Marks)
+  b. Discuss RAID levels with neat diagrams. (10 Marks)
+OR
+4 a. What is concurrency control? Explain locking-based protocols. (10 Marks)
+  b. Explain B+ tree indexing with an example. (10 Marks)
+
+VTU DBMS - 2023
+
+Module 1
+1 a. What is normalization? Why is it needed? Explain with an example. (10 Marks)
+  b. Explain transactions and the ACID properties in DBMS. (10 Marks)
+OR
+2 a. Explain query optimization techniques in DBMS. (10 Marks)
+  b. Draw an ER diagram for a library management system and explain the entities. (10 Marks)
+
+Module 2
+3 a. What is deadlock handling? Explain any two deadlock prevention techniques. (10 Marks)
+  b. Explain the different types of SQL joins with suitable examples. (10 Marks)
+OR
+4 a. Explain two-phase locking protocol for concurrency control. (10 Marks)
+  b. What is indexing in DBMS? Explain its types. (10 Marks)
+
+VTU DBMS - 2024
+
+Module 1
+1 a. Explain 1NF, 2NF, 3NF and BCNF with suitable examples. (10 Marks)
+  b. What is a transaction? Explain ACID properties with a real-world example. (10 Marks)
+OR
+2 a. Discuss functional dependencies and normal forms in DBMS. (10 Marks)
+  b. Draw an ER diagram for an online shopping system. (10 Marks)
+
+Module 2
+3 a. Explain deadlock detection algorithms in distributed systems. (10 Marks)
+  b. Discuss RAID architecture and its levels. (10 Marks)
+OR
+4 a. Explain timestamp-based concurrency control protocols. (10 Marks)
+  b. Compare B-tree and B+ tree indexing techniques. (10 Marks)
+
+VTU DBMS - 2025
+
+Module 1
+1 a. What is normalization? Explain 1NF, 2NF, 3NF and BCNF with examples. (10 Marks)
+  b. What is a transaction? Explain the ACID properties with an example. (10 Marks)
+OR
+2 a. Explain functional dependency and armstrong's axioms with examples. (10 Marks)
+  b. Draw an ER diagram for a college management system and explain the entities. (10 Marks)
+
+Module 2
+3 a. Explain deadlock detection and recovery techniques in DBMS. (10 Marks)
+  b. Explain the different types of joins in SQL with suitable examples. (10 Marks)
+OR
+4 a. Explain concurrency control techniques using locking protocols. (10 Marks)
+  b. What is indexing? Explain B+ tree indexing with a neat diagram. (10 Marks)
+
+VTU DBMS - Model Paper A
+
+Module 1
+1 a. Explain the concept of normalization with a suitable example. (10 Marks)
+  b. Explain transactions and the ACID properties in DBMS with an example. (10 Marks)
+OR
+2 a. What is a functional dependency? Explain with a suitable example. (10 Marks)
+  b. Draw and explain an ER diagram for a hospital management system. (10 Marks)
+
+Module 2
+3 a. What is deadlock? Explain deadlock detection and recovery techniques. (10 Marks)
+  b. Discuss RAID levels with neat diagrams and explain their use. (10 Marks)
+OR
+4 a. Explain concurrency control techniques in DBMS with an example. (10 Marks)
+  b. What is indexing in DBMS? Explain B-tree indexing with an example. (10 Marks)
